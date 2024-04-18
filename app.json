@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Quick",
+    "slug": "quick",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icontest.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.quick.idgs.utslrc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dce3c0f9-a3c1-4807-bc61-6424f8187d7d"
+      }
+    }
+  }
+}
